@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_view_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="11dp"
+        android:text="15:31"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_titulo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_hora"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="11dp"
+        android:text="SAÚDE &amp; BEM-ESTAR" />
+
+    <TextView
+        android:id="@+id/text_view_resumo"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_titulo"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="A newslatter que traz os melhores conteúdos do Estadão sobre vida saudável, inscreva-se para receber por e-mail." />
+</RelativeLayout>
