@@ -35,7 +35,7 @@ public class CardNoticiaListViewAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         if(view == null) {
-            view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.cardNoticia, viewGroup, false);
+            view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_noticia, viewGroup, false);
         }
 
         CardNoticia cardNoticia = (CardNoticia) getItem(i);
