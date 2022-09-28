@@ -1,6 +1,6 @@
 package com.bonatti.alertnews.model.entity;
 
-public class CardNoticia {
+public class Noticia {
 
     private Integer codigo;
     private String titulo;
@@ -10,7 +10,7 @@ public class CardNoticia {
     private String hora;
     private String data;
 
-    public CardNoticia(Integer codigo, String titulo, String resumo, String texto, String autor, String hora, String data) {
+    public Noticia(Integer codigo, String titulo, String resumo, String texto, String autor, String hora, String data) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.resumo = resumo;
@@ -40,6 +40,10 @@ public class CardNoticia {
         return resumo;
     }
 
+    public void setResumo(String resumo) {
+        this.resumo = resumo;
+    }
+
     public String getTexto() {
         return texto;
     }
@@ -54,10 +58,6 @@ public class CardNoticia {
 
     public void setAutor(String autor) {
         this.autor = autor;
-    }
-
-    public void setResumo(String resumo) {
-        this.resumo = resumo;
     }
 
     public String getHora() {
